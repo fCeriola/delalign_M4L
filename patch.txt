@@ -1,0 +1,80 @@
+----------begin_max5_patcher----------
+
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : {
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 1,
+			"architecture" : "x64",
+			"modernui" : 1
+		},
+		"classnamespace" : "box",
+		"rect" : [ 34, 86, 351, 211 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12,
+		"default_fontface" : 0,
+		"default_fontname" : "Lato",
+		"grid" : [ 5, 5 ],
+		"guides" : 1,
+		"snap" : 5,
+		"showgrid" : 1,
+		"showguides" : 0,
+		"lockeddrag" : 0,
+		"bgcolor" : [ 0.870588, 0.921569, 0.980392, 0 ],
+		"bggradient" : 0,
+		"rectrounded" : 4,
+		"zoom" : 1.0,
+		"openinmaxwindow" : 0,
+		"savetopology" : 1,
+		"debugging" : 0,
+		"autoclear" : 0,
+		"description" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatcher" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 170, 130, 80, 22 ],
+					"saved_object_attributes" : 					{
+						"basictype" : "float",
+						"precision" : 0
+					}
+,
+					"text" : "number @size 80"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 35, 130, 120, 22 ],
+					"text" : "text"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+				}
+			}
+		]
+	}
+}
+
+
